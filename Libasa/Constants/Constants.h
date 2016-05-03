@@ -10,8 +10,19 @@
 
 @interface Constants : NSObject
 
+//http protocol
+extern NSString * keyHttp;
+
 //JSON Parser Banners
 extern NSString * keyJsonImgPreview;
 extern NSString * keyJsonBanners;
+extern NSString * keyJsonShortDescription;
+extern NSString * keyJsonId;
+extern NSString * keyJsonTitulo;
+extern NSString * keyJsonNota;
+extern NSString * keyJsonDescripcion;
+extern NSString * keyJsonFecha;
+extern NSString * keyJsonTipoMultimedia;
+extern NSString * keyJsonMultimedia;
 
 @end

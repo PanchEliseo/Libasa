@@ -10,6 +10,12 @@
 
 @interface EUICellNoticias : UICollectionViewCell
 
+//propiedades celdas notcias carrucel
 @property (weak, nonatomic) IBOutlet UIImageView *imageCarousel;
+@property (weak, nonatomic) IBOutlet UILabel *celdaDescripcion;
+
+//propiedades celdas notcias
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewCell;
+@property (weak, nonatomic) IBOutlet UILabel *celdaTituloNoticias;
+
 @end

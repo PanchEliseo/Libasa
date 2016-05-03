@@ -11,7 +11,19 @@
 
 @implementation Constants
 
+//http protocol
+NSString * keyHttp                 = @"http://";
+
+//JSON Parser Banners
 NSString * keyJsonImgPreview       = @"img_preview";
 NSString * keyJsonBanners          = @"banners";
+NSString * keyJsonShortDescription = @"short_descripcion";
+NSString * keyJsonId               = @"id";
+NSString * keyJsonTitulo           = @"titulo";
+NSString * keyJsonNota             = @"nota";
+NSString * keyJsonDescripcion      = @"descripcion";
+NSString * keyJsonFecha            = @"fecha";
+NSString * keyJsonTipoMultimedia   = @"tipo_multimedia";
+NSString * keyJsonMultimedia       = @"multimedia";
 
 @end
